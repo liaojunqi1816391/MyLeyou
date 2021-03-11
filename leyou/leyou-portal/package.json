@@ -1,0 +1,8 @@
+{
+  "name": "leyou-portal",
+  "version": "1.0.0",
+  "dependencies": {
+    "qs": "^6.9.6",
+    "vue": "^2.6.12"
+  }
+}

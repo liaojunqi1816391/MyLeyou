@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<script>
+    /*for(let i = 0; i < 5; i++){
+        console.log(i);
+    }*/
+    // console.log("循环外：" + i)
+
+    /*var str  = 'hello.vue';
+    console.log(str.includes('v'));
+    console.log(str.includes('hello'));
+    console.log(str.startsWith('hello'));
+    console.log(str.endsWith('.vue'));*/
+
+    /*var str = `hello*/
+    /*            world*/
+    /*            java*/
+    /*            1234`;*/
+    <!--console.log(str);-->
+
+    /*let arr = [1,2,3];
+    let [x,y,z] = arr;
+    console.log(x,y,z);*/
+
+    /*const person = {
+        name:"jack",
+        age:21,
+        language: ['java','js','css']
+    };
+    // 解构表达式获取值
+    const {name:n,age:a,language} = person;
+    // 打印
+    console.log(n);
+    console.log(a);
+    console.log(language);*/
+
+    /*function add(a , b = 1) {
+        // 判断b是否为空，为空就给默认值1
+        // b = b || 1;
+        return a + b;
+    }
+    // 传一个参数
+    console.log(add(10));
+    console.log(add(10,5));*/
+
+    /*var f1 = obj => console.log(obj);
+    var f2 = (a,b) => a+b;
+    var f3 = (a,b) => {
+        console.log(this);
+        console.log(a,b);
+        return a+b;
+    };
+    f1({name:'tom'});
+    console.log(f2(11,12));
+    console.log(f3(11,112));
+    var person = {func : f3,
+    ff : function () {
+        console.log(this)
+    }};
+    person.func(11,12);
+    person.ff();*/
+
+    /*const person = {
+        name:"jack",
+        age:21,
+        language: ['java','js','css']
+    }
+
+    function hello(person) {
+        console.log("hello," + person.name)
+    }
+    var hi = ({name}) =>  console.log("hello," + name);
+    hello(person);
+    hi(person);*/
+
+    /*let arr = ['1','20','-5','3'];
+    console.log(arr)
+
+    arr = arr.map(s => parseInt(s));
+    console.log(arr)*/
+
+    /*const arr = [1,20,-5,3];
+    console.log(arr.reduce((a,b) => a+b));
+    console.log(arr.reduce(function (a,b) {
+        return a*b;
+    }));
+    console.log(arr.reduce((a,b) => a*b,1));// 初始从指定的1和数组中的第一个数开始运算 作乘法效果相同*/
+
+   /* var obj = {title:'test','phone':'0011-1200'};
+    console.log(Object.keys(obj));
+    console.log(Object.values(obj));
+    console.log(Object.entries(obj));
+
+    Object.assign(obj,{name:'tom',age:25},{age:'26',sex:'男'});
+    console.log(obj);*/
+
+    var arr = [1,2,3,4];
+    console.log(arr.find(((value, index, obj) => value === 2)));
+    console.log(arr.find(((value, index, obj) => value === 5)));
+    console.log(arr.findIndex(((value, index, obj) => value === 2)));
+    console.log(arr.findIndex(((value, index, obj) => value === 5)));
+    console.log(arr.includes(2));
+    console.log(arr.includes(5));
+</script>
+<body>
+
+</body>
+</html>
